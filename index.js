@@ -52,6 +52,14 @@ fetch('http://localhost:3000/films')
 					});
 					filmsDiv.appendChild(decreaseButton);
 
+        const movieImg = document.getElementById("poster");
+		const movieName = document.getElementById("filmTitle");
+		const movDes = document.getElementById("movieDescription")
+		const runTm = document.getElementById("runtime")
+		const showTm = document.getElementById("showtime")
+		const availableTckt =document.getElementById(`ticketsAvailable${data.id}`)
+	
+
 					// Add the movie tickets sold
 					const ticketsSoldParagraph = document.createElement('p');
 					ticketsSoldParagraph.textContent = `Tickets sold: ${films.tickets_sold}`;
