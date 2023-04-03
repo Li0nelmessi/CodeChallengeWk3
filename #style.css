@@ -1,0 +1,31 @@
+body {
+    background-color:burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.logo {
+    text-align: center;
+    font-size: 40px;
+    color: brown;
+}
+
+.container {
+    background-color: rgb(98, 111, 2);
+    text-align: center;
+}
+
+#id {
+    background-color: crimson;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+
+div {
+width: 700px;
+  margin: auto;
+  font-family: Helvetica Neue;
+  background-color: greenyellow;
+  padding: 30px;
+}
